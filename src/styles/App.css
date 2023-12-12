@@ -6,7 +6,9 @@
 
 #root {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .App {
@@ -21,6 +23,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.post__btn{
+  display: flex;
+}
 
 .post-enter {
   transform: translateX(-100%);
@@ -32,4 +37,31 @@
 .post-exit-active {
   transform: translateX(-100%);
   transition: all 300ms linear;
+}
+
+.myBtn {
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.myBtn__active{
+  border: 2px solid orange;
+  font-weight: bold;
+}
+
+.navbar{
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: rgb(110, 156, 154);
+}
+
+.navbar__links{
+  margin-left: auto;
 }
