@@ -1,6 +1,6 @@
 import React from "react";
 
-const Error = function() {
+const MyError = function() {
   return (
     <div>
       <h1 style={{color: 'red'}}>THE ERROR WAS HAPPEN</h1>
@@ -8,4 +8,4 @@ const Error = function() {
   )
 }
 
-export default Error;
+export default MyError;
