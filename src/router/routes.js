@@ -15,6 +15,5 @@ export const privateRoutes = [
 ]
 
 export const publicRoutes = [
-  {path: '/login', component: Login},
-  {path: '*', component: MyError},
+  {path: '*', component: Login},
 ]
