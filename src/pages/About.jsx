@@ -3,7 +3,7 @@ import React from 'react';
 const About = function() {
   return(
     <h1>
-      Hello hahui
+      Hello world
     </h1>
   )
 }
